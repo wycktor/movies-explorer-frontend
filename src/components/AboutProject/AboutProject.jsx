@@ -5,14 +5,14 @@ function AboutProject() {
       <ul className="about-project__info">
         <li className="about-project__info-item">
           <h3 className="about-project__info-title">Дипломный проект включал 5 этапов</h3>
-          <p className="about__project__info-description">
+          <p className="about-project__info-description">
             Составление плана, работу над бэкендом, вёрстку, добавление функциональности
             и&nbsp;финальные доработки.
           </p>
         </li>
         <li className="about-project__info-item">
           <h3 className="about-project__info-title">На выполнение диплома ушло 5 недель</h3>
-          <p className="about__project__info-description">
+          <p className="about-project__info-description">
             У&nbsp;каждого этапа был мягкий и&nbsp;жёсткий дедлайн, которые нужно было соблюдать,
             чтобы успешно защититься.
           </p>

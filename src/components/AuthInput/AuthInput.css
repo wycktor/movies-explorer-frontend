@@ -1,4 +1,4 @@
-.auth-input__container {
+.auth-input {
   width: 100%;
   box-sizing: border-box;
   position: relative;
@@ -7,7 +7,7 @@
   margin-bottom: 20px;
 }
 
-.auth-input__container:last-of-type {
+.auth-input__field:last-of-type {
   margin-bottom: 10px;
 }
 
@@ -20,7 +20,7 @@
   margin: 0 0 10px;
 }
 
-.auth-input {
+.auth-input__field {
   width: 100%;
   min-height: 46px;
   box-sizing: border-box;
@@ -36,12 +36,12 @@
   padding: 15px;
 }
 
-.auth-input:nth-last-of-type() {
+.auth-input__field:nth-last-of-type() {
   background-color: #ee3465;
   margin: 0;
 }
 
-.auth-input:focus {
+.auth-input__field:focus {
   outline: 1px solid #465dff;
 }
 

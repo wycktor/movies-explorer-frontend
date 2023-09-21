@@ -29,19 +29,17 @@ function Navigation(props) {
                 Главная
               </Link>
               <Link
-                className={
-                  location.pathname === '/movies' ? 'navigation__link_active' : 'navigation__link'
-                }
+                className={`navigation__link ${
+                  location.pathname === '/movies' ? 'navigation__link_active' : ''
+                }`}
                 to="/movies"
               >
                 Фильмы
               </Link>
               <Link
-                className={
-                  location.pathname === '/saved-movies'
-                    ? 'navigation__link_active'
-                    : 'navigation__link'
-                }
+                className={`navigation__link ${
+                  location.pathname === '/saved-movies' ? 'navigation__link_active' : ''
+                }`}
                 to="/saved-movies"
               >
                 Сохранённые фильмы

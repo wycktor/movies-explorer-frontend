@@ -7,7 +7,7 @@ function Header(props) {
   const location = useLocation();
 
   return (
-    <header className={`header ${location.pathname === '/' ? 'header__main' : ''}`}>
+    <header className={`header ${location.pathname === '/' ? 'header_main' : ''}`}>
       <div className="header__container">
         <div className="header__body">
           <Link className="header__link" to="/">

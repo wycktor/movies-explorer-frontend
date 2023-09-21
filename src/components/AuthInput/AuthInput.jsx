@@ -1,11 +1,11 @@
 function AuthInput(props) {
   return (
-    <div className="auth-input__container">
+    <div className="auth-input">
       <label className="auth-input__label" htmlFor={props.id}>
         {props.label}
       </label>
       <input
-        className="auth-input"
+        className="auth-input__field"
         name={props.name}
         id={props.id}
         type={props.type}
